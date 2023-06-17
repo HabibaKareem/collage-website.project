@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/assignment2.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="home page.html">Home</a></li>
+        <li><a href="remove.html">Remove Student Data</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="view.html">View Students</a></li>
+        <li><a href="search_department.html">Department</a></li>
+        <li><a href="update.html">Update Student Data</a></li>
+        <li><a href="Instructions.html">Instructions</a></li>
+      </ul>
+    </nav>
+    <section class="">
+      <div class="department_form">
+        <div class="form_head">
+          <h2>Add Student</h2>
+          <br />
+        </div>
+        <form action="">
+          <div class="form-control">
+            <label for="name"> Name:</label><br />
+            <input
+              type="text"
+              id="name"
+              placeholder="hossam sultan"
+            /><br /><br />
+          </div>
+          <div class="form-control">
+            <label for="ID">ID:</label><br />
+            <input type="text" id="ID" placeholder="2020000" /> <br /><br />
+          </div>
+          <div class="form-control">
+            <label for="dateofbirth">Date of Birth</label><br />
+            <input type="date" id="db" /><br /><br />
+          </div>
+          <div class="form-control">
+            <label for="GPA">GPA</label><br />
+            <input
+              type="number"
+              id="GPA"
+              placeholder="4.00"
+              max="4"
+              min="0"
+            /><br />
+            <br />
+          </div>
+          <div class="form-control">
+            <label for="level"> level:</label><br />
+            <input type="text" id="l" placeholder="1" /><br /><br />
+          </div>
+          <div class="form-control">
+            <label for="status">statue</label>
+            <select name="statue" id="s">
+              <option value="active">active</option>
+              <option value="inactive">inactive</option></select
+            ><br /><br />
+          </div>
+          <div class="form-control">
+            <label for="Gender">Gender</label>
+            <select name="Gender" id="g">
+              <option value="male">male</option>
+              <option value="female">female</option></select
+            ><br /><br />
+          </div>
+          <div class="form-control">
+            <label for="department">Department</label>
+            <select name="department" id="">
+              <option value="Department1">IS</option>
+              <option value="Department2">CS</option>
+              <option value="Department3">DS</option>
+              <option value="Department4">IT</option>
+              <option value="Department5">AI</option></select
+            ><br /><br />
+          </div>
+          <div class="form-control">
+            <label for="em"> email:</label><br />
+            <input
+              type="text"
+              id="email"
+              placeholder="hossamsultan@gmail.com"
+            /><br /><br />
+          </div>
+          <div class="form-control">
+            <label for="n"> mobil number:</label><br />
+            <input type="text" id="m" placeholder="01141971413" /><br />
+            <br />
+          </div>
+        </form>
+        <div class="button">
+            <button  onclick="return confirm('The student has been added🫡');"
+            >submit</button>
+          </a>
+            <button onclick="return confirm('The data has been reset😒');">reset</button>
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
